@@ -1,12 +1,6 @@
-def factorial(n):
-    result = 1
-    for i in range(1, n + 1):
-        result *= i
-    return result
-def factorial(n):
-    result = 1
-    for i in range(1, n + 1):
-        result *= i
-    return result
-num = int(input("Enter number: "))
-print("Factorial =", factorial(num))
+def multi_table(n):
+    for x in range(1, 11):
+        result = n * x
+        print(f"{n} x {x} = {result}")
+num = int(input("Enter a number: "))
+multi_table(num)
